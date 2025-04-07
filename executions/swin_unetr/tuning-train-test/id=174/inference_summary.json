@@ -1,0 +1,105 @@
+{
+    "total_execution_time_seconds": 20.81984567642212,
+    "splits": [
+        {
+            "split_index": 0,
+            "inference_samples": null,
+            "inference_loss": 0.09067940711975098,
+            "inference_mean_iou": 0.8343120813369751,
+            "inference_dice_coefficient": 0.9096729755401611,
+            "inference_fpr": 0.0052136643789708614,
+            "inference_time_seconds": 3.7709357738494873,
+            "test_samples": [
+                "R_006",
+                "R_010",
+                "R_012",
+                "Z_004",
+                "Z_013",
+                "Z_017"
+            ],
+            "inference_tpr_recall": 0.895542562007904,
+            "inference_precision": 0.9242565035820007
+        },
+        {
+            "split_index": 1,
+            "inference_samples": null,
+            "inference_loss": 0.13044053316116333,
+            "inference_mean_iou": 0.7703827023506165,
+            "inference_dice_coefficient": 0.8703007698059082,
+            "inference_fpr": 0.0016032321145758033,
+            "inference_time_seconds": 3.7528624534606934,
+            "test_samples": [
+                "R_008",
+                "R_014",
+                "R_019",
+                "Z_011",
+                "Z_015",
+                "Z_016"
+            ],
+            "inference_tpr_recall": 0.7923559546470642,
+            "inference_precision": 0.9652536511421204
+        },
+        {
+            "split_index": 2,
+            "inference_samples": null,
+            "inference_loss": 0.11867552995681763,
+            "inference_mean_iou": 0.7906224727630615,
+            "inference_dice_coefficient": 0.8830699920654297,
+            "inference_fpr": 0.004100015386939049,
+            "inference_time_seconds": 3.836444139480591,
+            "test_samples": [
+                "R_009",
+                "R_015",
+                "R_020",
+                "Z_006",
+                "Z_009",
+                "Z_019"
+            ],
+            "inference_tpr_recall": 0.885067880153656,
+            "inference_precision": 0.8810811042785645
+        },
+        {
+            "split_index": 3,
+            "inference_samples": null,
+            "inference_loss": 0.09683758020401001,
+            "inference_mean_iou": 0.8262548446655273,
+            "inference_dice_coefficient": 0.9048625826835632,
+            "inference_fpr": 0.00823475606739521,
+            "inference_time_seconds": 3.840081214904785,
+            "test_samples": [
+                "R_004",
+                "R_005",
+                "R_016",
+                "Z_002",
+                "Z_007",
+                "Z_010"
+            ],
+            "inference_tpr_recall": 0.9153122305870056,
+            "inference_precision": 0.8946488499641418
+        },
+        {
+            "split_index": 4,
+            "inference_samples": null,
+            "inference_loss": 0.16437995433807373,
+            "inference_mean_iou": 0.7148014307022095,
+            "inference_dice_coefficient": 0.8336842060089111,
+            "inference_fpr": 0.005667118355631828,
+            "inference_time_seconds": 3.855005979537964,
+            "test_samples": [
+                "R_007",
+                "R_013",
+                "R_017",
+                "Z_003",
+                "Z_012",
+                "Z_018"
+            ],
+            "inference_tpr_recall": 0.9180834889411926,
+            "inference_precision": 0.7634961605072021
+        }
+    ],
+    "average_inference_loss": 0.12020260095596313,
+    "average_inference_mean_iou": 0.787274706363678,
+    "average_inference_dice_coefficient": 0.8803181052207947,
+    "average_inference_fpr": 0.004963757260702551,
+    "average_inference_time_seconds": 3.811065912246704
+}

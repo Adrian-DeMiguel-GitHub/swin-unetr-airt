@@ -1,0 +1,77 @@
+{
+    "TRIAL_ID": 45,
+    "VAL_LOSS": 0.1270466893911361,
+    "MODEL_INFO": {
+        "model_total_params": 4184149,
+        "model_trainable_params": 4184149,
+        "model_non_trainable_params": 0,
+        "model_gflops_inference": 12.619788288
+    },
+    "TRAINING_CONFIG": {
+        "lr_optimizer": 0.00010772108579100076,
+        "weight_decay_optimizer": 4.400603422114814e-06,
+        "warmup_epochs_lr_scheduler": 7,
+        "max_training_epochs": 10000,
+        "patience_epochs_early_stopping": 20,
+        "batch_size_training": 3,
+        "batch_size_inference": 1,
+        "num_batches_grad_accumulation": 2,
+        "overlap_training": [
+            0.0,
+            0.0
+        ],
+        "overlap_inference": [
+            0,
+            0
+        ],
+        "post_processing_strategy": "weighted_average",
+        "pre_processing_strategy": "uniform_gaussian_smoothed_equidistant_subsampling"
+    },
+    "ARCHITECTURE_CONFIG": {
+        "use_SWIN_v2": false,
+        "model_input_dimensions": [
+            64,
+            64,
+            64
+        ],
+        "model_input_channels": 1,
+        "model_output_channels": 2,
+        "initial_feature_embedding_size": 12,
+        "patch_embedding_size": [
+            2,
+            2,
+            2
+        ],
+        "num_swin_transformer_blocks_in_layers": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "mlp_ratio": 4.0
+    },
+    "ATTENTION_CONFIG": {
+        "heads": [
+            3,
+            6,
+            12,
+            24
+        ],
+        "window_size": [
+            8,
+            8,
+            8
+        ],
+        "qkv_bias": true,
+        "drop_rate": 0
+    },
+    "NORMALIZATION_CONFIG": {
+        "use_norm_in_swinViT_after_layer": true,
+        "patch_norm_in_swinViT": false,
+        "unet_block_norm_type": "instance"
+    },
+    "REGULARIZATION_CONFIG": {
+        "transformer_block_drop_rate": 0,
+        "transformer_block_residual_block_dropout_path_rate": 0
+    }
+}

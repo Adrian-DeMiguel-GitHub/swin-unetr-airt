@@ -1,0 +1,3 @@
+epoch,step,test_dice_epoch,test_dice_step,test_fpr_epoch,test_fpr_step,test_loss_epoch,test_loss_step,test_mean_iou_epoch,test_mean_iou_step,test_precision_epoch,test_precision_step,test_tpr_recall_epoch,test_tpr_recall_step
+,0,,0.9096729755401611,,0.0052136643789708614,,0.09067940711975098,,0.8343120813369751,,0.9242565035820007,,0.895542562007904
+0,0,0.9096729755401611,,0.0052136643789708614,,0.09067940711975098,,0.8343120813369751,,0.9242565035820007,,0.895542562007904,

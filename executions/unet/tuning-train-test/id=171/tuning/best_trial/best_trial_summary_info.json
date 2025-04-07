@@ -1,0 +1,20 @@
+{
+    "TRIAL_ID": 299,
+    "VAL_LOSS": 0.1303325593471527,
+    "MODEL_INFO": {
+        "model_total_params": 28318466,
+        "model_trainable_params": 28318466,
+        "model_non_trainable_params": 0,
+        "model_gflops_inference": 75.842077696
+    },
+    "TRAINING_CONFIG": {
+        "lr_optimizer": 0.0033250234238817035,
+        "weight_decay_optimizer": 0.00010179319024552697,
+        "optimizer": "adam",
+        "max_training_epochs": 3000,
+        "patience_epochs_early_stopping": 578,
+        "batch_size": 8,
+        "pre_processing_technique": "ppt",
+        "pre_processing_channels": 10
+    }
+}

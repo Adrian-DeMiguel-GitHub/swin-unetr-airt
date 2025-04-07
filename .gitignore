@@ -1,0 +1,33 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and metadata
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+
+# Logs and outputs
+*.log
+logs/*.txt
+
+# Environment and virtualenvs
+.env_experimenting/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model files and large data
+*.ckpt
+*.mat
+*.npy
+*.pt
+*.raw
+
+# Ignore data output and preprocessing folders
+data/train_data/preprocessed_files/
+
+# Git LFS (make sure you’ve tracked the heavy types)
+.gitattributes

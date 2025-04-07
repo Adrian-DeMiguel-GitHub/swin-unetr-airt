@@ -1,0 +1,734 @@
+{
+    "R_002": {
+        "3D_thermal_sequence_filename": "R_002.mat",
+        "label_filename": "R_002_binary.png",
+        "stratified_group": "A",
+        "ROI": {
+            "all_points_x": [
+                74,
+                80,
+                250,
+                254,
+                74
+            ],
+            "all_points_y": [
+                32,
+                214,
+                214,
+                32,
+                32
+            ]
+        },
+        "augmentations": [
+            {
+                "R_002_aug_1": {
+                    "3D_thermal_sequence_filename": "R_002_aug_1.mat",
+                    "label_filename": "R_002_aug_1_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            74,
+                            80,
+                            250,
+                            254,
+                            74
+                        ],
+                        "all_points_y": [
+                            32,
+                            214,
+                            214,
+                            32,
+                            32
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": false,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": true,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "R_002_aug_2": {
+                    "3D_thermal_sequence_filename": "R_002_aug_2.mat",
+                    "label_filename": "R_002_aug_2_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            245,
+                            239,
+                            69,
+                            65,
+                            245
+                        ],
+                        "all_points_y": [
+                            32,
+                            214,
+                            214,
+                            32,
+                            32
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": false,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "R_002_aug_3": {
+                    "3D_thermal_sequence_filename": "R_002_aug_3.mat",
+                    "label_filename": "R_002_aug_3_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            229.0669708251953,
+                            251.51272583007812,
+                            83.59113311767578,
+                            51.26763916015625,
+                            229.0669708251953
+                        ],
+                        "all_points_y": [
+                            235.1612091064453,
+                            54.45098876953125,
+                            27.949289321899414,
+                            207.10060119628906,
+                            235.1612091064453
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": true,
+                        "rotation_angle": 8.968551182212563,
+                        "noise": true,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            }
+        ]
+    },
+    "R_003": {
+        "3D_thermal_sequence_filename": "R_003.mat",
+        "label_filename": "R_003_binary.png",
+        "stratified_group": "A",
+        "ROI": {
+            "all_points_x": [
+                75,
+                80,
+                250,
+                255,
+                75
+            ],
+            "all_points_y": [
+                32,
+                215,
+                214,
+                31,
+                32
+            ]
+        },
+        "augmentations": [
+            {
+                "R_003_aug_1": {
+                    "3D_thermal_sequence_filename": "R_003_aug_1.mat",
+                    "label_filename": "R_003_aug_1_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            244,
+                            239,
+                            69,
+                            64,
+                            244
+                        ],
+                        "all_points_y": [
+                            223,
+                            40,
+                            41,
+                            224,
+                            223
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 0.9261116736316273
+                    }
+                }
+            },
+            {
+                "R_003_aug_2": {
+                    "3D_thermal_sequence_filename": "R_003_aug_2.mat",
+                    "label_filename": "R_003_aug_2_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            63.423885345458984,
+                            91.90852355957031,
+                            260.3692932128906,
+                            241.80166625976562,
+                            63.423885345458984
+                        ],
+                        "all_points_y": [
+                            43.655616760253906,
+                            224.49429321289062,
+                            201.647705078125,
+                            19.52346420288086,
+                            43.655616760253906
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": false,
+                        "rotation": true,
+                        "rotation_angle": -7.386277577202258,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "R_003_aug_3": {
+                    "3D_thermal_sequence_filename": "R_003_aug_3.mat",
+                    "label_filename": "R_003_aug_3_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            75,
+                            80,
+                            250,
+                            255,
+                            75
+                        ],
+                        "all_points_y": [
+                            223,
+                            40,
+                            41,
+                            224,
+                            223
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": true,
+                        "blur": true,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            }
+        ]
+    },
+    "R_004": {
+        "3D_thermal_sequence_filename": "R_004.mat",
+        "label_filename": "R_004_binary.png",
+        "stratified_group": "A",
+        "ROI": {
+            "all_points_x": [
+                74,
+                80,
+                251,
+                254,
+                74
+            ],
+            "all_points_y": [
+                32,
+                215,
+                215,
+                32,
+                32
+            ]
+        },
+        "augmentations": [
+            {
+                "R_004_aug_1": {
+                    "3D_thermal_sequence_filename": "R_004_aug_1.mat",
+                    "label_filename": "R_004_aug_1_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            74,
+                            80,
+                            251,
+                            254,
+                            74
+                        ],
+                        "all_points_y": [
+                            32,
+                            215,
+                            215,
+                            32,
+                            32
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": false,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 0.9276575445914783
+                    }
+                }
+            },
+            {
+                "R_004_aug_2": {
+                    "3D_thermal_sequence_filename": "R_004_aug_2.mat",
+                    "label_filename": "R_004_aug_2_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            55.62409210205078,
+                            100.45699310302734,
+                            267.5346374511719,
+                            231.4953155517578,
+                            55.62409210205078
+                        ],
+                        "all_points_y": [
+                            52.398094177246094,
+                            229.92276000976562,
+                            193.50767517089844,
+                            14.066427230834961,
+                            52.398094177246094
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": false,
+                        "rotation": true,
+                        "rotation_angle": -12.295503454864427,
+                        "noise": true,
+                        "blur": true,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "R_004_aug_3": {
+                    "3D_thermal_sequence_filename": "R_004_aug_3.mat",
+                    "label_filename": "R_004_aug_3_binary.png",
+                    "stratified_group": "A",
+                    "ROI": {
+                        "all_points_x": [
+                            74,
+                            80,
+                            251,
+                            254,
+                            74
+                        ],
+                        "all_points_y": [
+                            223,
+                            40,
+                            40,
+                            223,
+                            223
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": true,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            }
+        ]
+    },
+    "Z_002": {
+        "3D_thermal_sequence_filename": "Z_002.mat",
+        "label_filename": "Z_002_binary.png",
+        "stratified_group": "B",
+        "ROI": {
+            "all_points_x": [
+                77,
+                83,
+                255,
+                258,
+                77
+            ],
+            "all_points_y": [
+                30,
+                214,
+                214,
+                32,
+                30
+            ]
+        },
+        "augmentations": [
+            {
+                "Z_002_aug_1": {
+                    "3D_thermal_sequence_filename": "Z_002_aug_1.mat",
+                    "label_filename": "Z_002_aug_1_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            262.53125,
+                            213.62600708007812,
+                            46.40489959716797,
+                            86.09202575683594,
+                            262.53125
+                        ],
+                        "all_points_y": [
+                            52.021114349365234,
+                            229.50428771972656,
+                            189.24139404296875,
+                            11.59585952758789,
+                            52.021114349365234
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": false,
+                        "rotation": true,
+                        "rotation_angle": 13.53779141272962,
+                        "noise": false,
+                        "blur": true,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "Z_002_aug_2": {
+                    "3D_thermal_sequence_filename": "Z_002_aug_2.mat",
+                    "label_filename": "Z_002_aug_2_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            242,
+                            236,
+                            64,
+                            61,
+                            242
+                        ],
+                        "all_points_y": [
+                            30,
+                            214,
+                            214,
+                            32,
+                            30
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": false,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 1.0453101089669605
+                    }
+                }
+            },
+            {
+                "Z_002_aug_3": {
+                    "3D_thermal_sequence_filename": "Z_002_aug_3.mat",
+                    "label_filename": "Z_002_aug_3_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            242,
+                            236,
+                            64,
+                            61,
+                            242
+                        ],
+                        "all_points_y": [
+                            225,
+                            41,
+                            41,
+                            223,
+                            225
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 0.9580782295912325
+                    }
+                }
+            }
+        ]
+    },
+    "Z_003": {
+        "3D_thermal_sequence_filename": "Z_003.mat",
+        "label_filename": "Z_003_binary.png",
+        "stratified_group": "B",
+        "ROI": {
+            "all_points_x": [
+                79,
+                84,
+                255,
+                259,
+                79
+            ],
+            "all_points_y": [
+                32,
+                215,
+                215,
+                32,
+                32
+            ]
+        },
+        "augmentations": [
+            {
+                "Z_003_aug_1": {
+                    "3D_thermal_sequence_filename": "Z_003_aug_1.mat",
+                    "label_filename": "Z_003_aug_1_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            249.25772094726562,
+                            225.75039672851562,
+                            55.62957763671875,
+                            70.18318176269531,
+                            249.25772094726562
+                        ],
+                        "all_points_y": [
+                            214.35647583007812,
+                            32.80372619628906,
+                            50.121482849121094,
+                            232.58570861816406,
+                            214.35647583007812
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": true,
+                        "rotation_angle": -5.812505865928834,
+                        "noise": true,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 1.0618840404953191
+                    }
+                }
+            },
+            {
+                "Z_003_aug_2": {
+                    "3D_thermal_sequence_filename": "Z_003_aug_2.mat",
+                    "label_filename": "Z_003_aug_2_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            230.3424072265625,
+                            243.14271545410156,
+                            72.951416015625,
+                            51.19367218017578,
+                            230.3424072265625
+                        ],
+                        "all_points_y": [
+                            24.631858825683594,
+                            207.25209045410156,
+                            223.86306762695312,
+                            42.117103576660156,
+                            24.631858825683594
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": false,
+                        "rotation": true,
+                        "rotation_angle": -5.574515841472305,
+                        "noise": true,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 0.9502247410949984
+                    }
+                }
+            },
+            {
+                "Z_003_aug_3": {
+                    "3D_thermal_sequence_filename": "Z_003_aug_3.mat",
+                    "label_filename": "Z_003_aug_3_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            240,
+                            235,
+                            64,
+                            60,
+                            240
+                        ],
+                        "all_points_y": [
+                            223,
+                            40,
+                            40,
+                            223,
+                            223
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            }
+        ]
+    },
+    "Z_004": {
+        "3D_thermal_sequence_filename": "Z_004.mat",
+        "label_filename": "Z_004_binary.png",
+        "stratified_group": "B",
+        "ROI": {
+            "all_points_x": [
+                78,
+                84,
+                255,
+                259,
+                78
+            ],
+            "all_points_y": [
+                31,
+                215,
+                214,
+                31,
+                31
+            ]
+        },
+        "augmentations": [
+            {
+                "Z_004_aug_1": {
+                    "3D_thermal_sequence_filename": "Z_004_aug_1.mat",
+                    "label_filename": "Z_004_aug_1_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            241,
+                            235,
+                            64,
+                            60,
+                            241
+                        ],
+                        "all_points_y": [
+                            224,
+                            40,
+                            41,
+                            224,
+                            224
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": true,
+                        "vertical_flip": true,
+                        "rotation": false,
+                        "rotation_angle": null,
+                        "noise": true,
+                        "blur": true,
+                        "scaling": true,
+                        "scaling_factor": 1.0158921236764122
+                    }
+                }
+            },
+            {
+                "Z_004_aug_2": {
+                    "3D_thermal_sequence_filename": "Z_004_aug_2.mat",
+                    "label_filename": "Z_004_aug_2_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            67.99986267089844,
+                            93.95152282714844,
+                            263.8310546875,
+                            247.9288330078125,
+                            67.99986267089844
+                        ],
+                        "all_points_y": [
+                            214.57598876953125,
+                            32.316505432128906,
+                            51.88561248779297,
+                            234.23727416992188,
+                            214.57598876953125
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": true,
+                        "rotation": true,
+                        "rotation_angle": 6.236109801222477,
+                        "noise": false,
+                        "blur": false,
+                        "scaling": false,
+                        "scaling_factor": null
+                    }
+                }
+            },
+            {
+                "Z_004_aug_3": {
+                    "3D_thermal_sequence_filename": "Z_004_aug_3.mat",
+                    "label_filename": "Z_004_aug_3_binary.png",
+                    "stratified_group": "B",
+                    "ROI": {
+                        "all_points_x": [
+                            71.59873962402344,
+                            90.15318298339844,
+                            260.68548583984375,
+                            252.17599487304688,
+                            71.59873962402344
+                        ],
+                        "all_points_y": [
+                            36.792396545410156,
+                            219.95278930664062,
+                            207.274658203125,
+                            24.428861618041992,
+                            36.792396545410156
+                        ]
+                    },
+                    "augmentation_info": {
+                        "horizontal_flip": false,
+                        "vertical_flip": false,
+                        "rotation": true,
+                        "rotation_angle": -3.916741919559648,
+                        "noise": true,
+                        "blur": false,
+                        "scaling": true,
+                        "scaling_factor": 1.079497691735003
+                    }
+                }
+            }
+        ]
+    }
+}
