@@ -79,7 +79,7 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 
 - **Swin UNETR V2 vs U-Net VGG11**:
   - V2 **statistically outperformed** U-Net VGG11 in **IoU@0.5** and **F1-Score@0.5**.
-  - It also achieved higher **TPR** and lower **FPR**, though these improvements were **not statistically significant**.
+  - It also achieved higher **TPR@0.5** and lower **FPR@0.5**, though these improvements were **not statistically significant**.
   - U-Net VGG11 had a slightly higher **ROC AUC**, but again, this was **not significant**.
 
 > Swin UNETR V2 delivered the most robust segmentation performance overall when operating under specific decision threshold 0.5, whereas no substantial differences in their overall discriminative capabilities across the full range of classification thresholds.
