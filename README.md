@@ -84,6 +84,14 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 
 > Swin UNETR V2 delivered the most robust segmentation performance overall when operating under specific decision threshold 0.5, whereas no substantial differences in their overall discriminative capabilities across the full range of classification thresholds.
 
+### ⚙️ Complexity Comparison
+
+| Model             | # Parameters (M) | FLOPs (G) | Avg. Training Time per Fold (h) | Inference Time (s)                  |
+|-------------------|------------------|-----------|---------------------------------|-------------------------------------|
+| **Swin UNETR V1** | 4.18             | 12.62     | 3.57                            | 3.81                                |
+| **Swin UNETR V2** | 117.54           | 244.86    | 5.02                            | 8.87                                |
+| **U-Net VGG11**   | 28.32            | 75.84     | 0.72                            | 15.94                               |
+
 
 
 
