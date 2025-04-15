@@ -43,7 +43,7 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
   - The optimization objective was **minimization of validation loss**, with early stopping and memory-safe pruning (CUDA OOM-aware).
   - The best hyperparameter configuration found during tuning was used for evaluation in a 5-fold cross-evaluation scheme.
 
-- **Evaluation setup**: Hold-out validation + 5-fold cross-evaluation for robust performance estimation.
+- **Evaluation setup**: Hold-out validation (same set used in hypertuning) + 5-fold cross-evaluation for robust performance estimation.
 
 - **Performance metrics** (@0.5 when evaluated at a fixed classification threshold of 0.5):
   - **IoU@0.5 (Intersection over Union)**: Measures the overlap between predicted and true defect regions.
