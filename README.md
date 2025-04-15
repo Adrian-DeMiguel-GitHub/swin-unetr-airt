@@ -5,7 +5,7 @@ This repository contains the implementation of the codebase developed for the ma
 **_Spatiotemporal Transformer Approach for Semantic Segmentation in Internal Defect Detection using Active Infrared Thermography_**
 
 **Author**: Adrián de Miguel Palacio  
-**Degree**: Master of Science (Data Science)  
+**Degree**: M.Sc. Data Science  
 **Institution**: Institut für Informatik und Computational Science, Universität Potsdam, Germany  
 **Year**: 2025
 
