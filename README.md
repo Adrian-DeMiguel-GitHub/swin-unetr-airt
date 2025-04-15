@@ -38,10 +38,6 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 
 ## 🧪 Evaluation Protocol
 
----
-
-## 🧪 Evaluation Protocol
-
 - **Model selection/hyperparamter tuning** was based on **Bayesian hyperparameter optimization** using the **Optuna** framework.
   - Separate tuning was performed for each model variant using a **hold-out validation set** (15% of samples).
   - The optimization objective was **minimization of validation loss**, with early stopping and memory-safe pruning (CUDA OOM-aware).
