@@ -1,4 +1,4 @@
-# swin-unetr-airt: Swin UNETR for Spatio-Temporal Semantic Segmentation in Active Infrared Thermography
+# Swin UNETR for Spatio-Temporal Semantic Segmentation in Active Infrared Thermography
 
 This repository contains the implementation of the codebase developed for the master's thesis:
 
