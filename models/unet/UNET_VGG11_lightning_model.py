@@ -154,6 +154,7 @@ class UNET_VGG11_LightningModel(pl.LightningModule):
         self.test_ground_truths = []
         self.test_predictions = []
         self.test_sample_ids = []
+        self.test_predictions_probabilities = []
     
         self.val_epoch_loss = None
         self.val_epoch_mean_iou = None
@@ -401,6 +402,7 @@ class UNET_VGG11_LightningModel(pl.LightningModule):
             self.test_ground_truths.append(y_categorized)
             self.test_predictions.append(y_hat_categorized)
             self.test_sample_ids.append(sample_ids[i])
+            self.test_predictions_probabilities.append(y_hat_probabilities[i].squeeze()[1])
         
         # Return the loss
         return loss.item()
@@ -507,6 +509,7 @@ class UNET_VGG11_LightningModel(pl.LightningModule):
         self.test_ground_truths = []
         self.test_predictions = []
         self.test_sample_ids = []
+        self.test_predictions_probabilities = []
 
         if self.enable_testing_epoch_logging_into_console:
                 # Start of an epoch

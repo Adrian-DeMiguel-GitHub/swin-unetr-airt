@@ -1,0 +1,90 @@
+{
+    "total_execution_time_seconds": 87.1718475818634,
+    "splits": [
+        {
+            "split_index": 0,
+            "test_samples": [
+                "R_006",
+                "R_010",
+                "R_012",
+                "Z_004",
+                "Z_013",
+                "Z_017"
+            ],
+            "testing_iou_thres_0_5": 0.7687132211713115,
+            "testing_f1_thres_0_5": 0.867862683730568,
+            "testing_fpr_thres_0_5": 0.0033971928770415868,
+            "testing_tpr_thres_0_5": 0.8536339695675115,
+            "roc_auc": 0.9782142247972037
+        },
+        {
+            "split_index": 1,
+            "test_samples": [
+                "R_008",
+                "R_014",
+                "R_019",
+                "Z_011",
+                "Z_015",
+                "Z_016"
+            ],
+            "testing_iou_thres_0_5": 0.701931717337426,
+            "testing_f1_thres_0_5": 0.8196719917946041,
+            "testing_fpr_thres_0_5": 0.004144062088820894,
+            "testing_tpr_thres_0_5": 0.8673631645050847,
+            "roc_auc": 0.9866151483205859
+        },
+        {
+            "split_index": 2,
+            "test_samples": [
+                "R_009",
+                "R_015",
+                "R_020",
+                "Z_006",
+                "Z_009",
+                "Z_019"
+            ],
+            "testing_iou_thres_0_5": 0.6912357420648944,
+            "testing_f1_thres_0_5": 0.8090254777839972,
+            "testing_fpr_thres_0_5": 0.004205427597923053,
+            "testing_tpr_thres_0_5": 0.8414317076487307,
+            "roc_auc": 0.9776141685926875
+        },
+        {
+            "split_index": 3,
+            "test_samples": [
+                "R_004",
+                "R_005",
+                "R_016",
+                "Z_002",
+                "Z_007",
+                "Z_010"
+            ],
+            "testing_iou_thres_0_5": 0.6907826226314963,
+            "testing_f1_thres_0_5": 0.8072835101514694,
+            "testing_fpr_thres_0_5": 0.0018812404405585265,
+            "testing_tpr_thres_0_5": 0.8213233020060685,
+            "roc_auc": 0.9845271138235502
+        },
+        {
+            "split_index": 4,
+            "test_samples": [
+                "R_007",
+                "R_013",
+                "R_017",
+                "Z_003",
+                "Z_012",
+                "Z_018"
+            ],
+            "testing_iou_thres_0_5": 0.6541464804424092,
+            "testing_f1_thres_0_5": 0.75661366145712,
+            "testing_fpr_thres_0_5": 0.002047688005614856,
+            "testing_tpr_thres_0_5": 0.7058084856882699,
+            "roc_auc": 0.9498468697863586
+        }
+    ],
+    "average_testing_iou_thres_0_5": 0.7013619567295074,
+    "average_testing_f1_thres_0_5": 0.8120914649835518,
+    "average_testing_fpr_thres_0_5": 0.003135122201991783,
+    "average_testing_tpr_thres_0_5": 0.8179121258831332,
+    "average_testing_roc_auc": 0.9753635050640771
+}

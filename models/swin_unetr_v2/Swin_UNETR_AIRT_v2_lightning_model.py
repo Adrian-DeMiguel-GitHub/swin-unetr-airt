@@ -142,6 +142,7 @@ class SwinUNETR_AIRT_LightningModel(pl.LightningModule):
         self.test_ground_truths = []
         self.test_predictions = []
         self.test_sample_ids = []
+        self.test_predictions_probabilities = []
 
         self.best_epoch_val_loss = float('inf')
         self.best_epoch_val_ground_truths = []
@@ -512,6 +513,7 @@ class SwinUNETR_AIRT_LightningModel(pl.LightningModule):
             self.test_sample_ids.append(sample_id)
             self.test_ground_truths.append(y_categorized)
             self.test_predictions.append(y_hat_categorized)
+            self.test_predictions_probabilities.append(y_hat_probabilities.squeeze()[1]) # Probilities positive class (non-background)
 
             
 
@@ -638,6 +640,7 @@ class SwinUNETR_AIRT_LightningModel(pl.LightningModule):
         self.test_ground_truths = []
         self.test_predictions = []
         self.test_sample_ids = []
+        self.test_predictions_probabilities = []
 
         if self.enable_testing_epoch_logging_into_console:
                 # Start of an epoch
