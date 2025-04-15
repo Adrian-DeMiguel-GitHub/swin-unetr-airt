@@ -38,23 +38,32 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 
 ## 🧪 Evaluation Protocol
 
-- Hold-out validation + 5-fold cross-evaluation for robust performance estimation
+---
 
-- Metrics (@0.5 wehn evaluated at a fixed classification threshold of 0.5):
-  - **IoU@0.5 (Intersection over Union)**: Measures the overlap between predicted and true defect regions
-  - **F1-Score@0.5 (Dice Coefficient)**: Harmonic mean of precision and recall for defective areas
-  - **TPR@0.5 (True Positive Rate / Recall)**: Percentage of actual defective pixels correctly identified  
-  - **FPR@0.5 (False Positive Rate)**: Percentage of non-defective pixels incorrectly classified as defective  
-  - **ROC AUC**: Area under the ROC curve across varying classification thresholds
+## 🧪 Evaluation Protocol
 
-- Statistical testing for significance:
-  - **Shapiro–Wilk test** to assess normality of metric differences
-  - **Paired one-tailed t-tests** to compare performance between models
+- **Model selection/hyperparamter tuning** was based on **Bayesian hyperparameter optimization** using the **Optuna** framework.
+  - Separate tuning was performed for each model variant using a **hold-out validation set** (15% of samples).
+  - The optimization objective was **minimization of validation loss**, with early stopping and memory-safe pruning (CUDA OOM-aware).
+  - The best hyperparameter configuration found during tuning was used for evaluation in a 5-fold cross-evaluation scheme.
 
-- Complexity metrics:
-  - **FLOPs**: Approximate computational cost
-  - **# Parameters**: Model size
-  - **Training time / Inference time**: Runtime performance evaluation
+- **Evaluation setup**: Hold-out validation + 5-fold cross-evaluation for robust performance estimation.
+
+- **Performance metrics** (@0.5 when evaluated at a fixed classification threshold of 0.5):
+  - **IoU@0.5 (Intersection over Union)**: Measures the overlap between predicted and true defect regions.
+  - **F1-Score@0.5 (Dice Coefficient)**: Harmonic mean of precision and recall for defective areas.
+  - **TPR@0.5 (True Positive Rate / Recall)**: Percentage of actual defective pixels correctly identified.  
+  - **FPR@0.5 (False Positive Rate)**: Percentage of non-defective pixels incorrectly classified as defective.  
+  - **ROC AUC**: Area under the ROC curve across varying classification thresholds.
+
+- **Statistical testing for significance**:
+  - **Shapiro–Wilk test** to assess normality of metric differences across folds.
+  - **Paired one-tailed t-tests** to compare whether one model significantly outperforms another.
+
+- **Complexity metrics**:
+  - **FLOPs**: Approximate computational cost per forward pass.
+  - **# Parameters**: Total number of trainable weights in the model.
+  - **Training time / Inference time**: Runtime performance per training split and per sample respectively.
 
 ---
 
