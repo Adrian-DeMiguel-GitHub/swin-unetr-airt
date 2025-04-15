@@ -34,4 +34,27 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 - 2D segmentation on summary images created with video-to-image processing
 - Evaluated using both **PPT** and **PCT**
 
+---
+
+## 🧪 Evaluation Protocol
+
+- Hold-out validation + 5-fold cross-evaluation for robust performance estimation
+
+- Metrics (@0.5 wehn evaluated at a fixed classification threshold of 0.5):
+  - **IoU@0.5 (Intersection over Union)**: Measures the overlap between predicted and true defect regions
+  - **F1-Score@0.5 (Dice Coefficient)**: Harmonic mean of precision and recall for defective areas
+  - **TPR@0.5 (True Positive Rate / Recall)**: Percentage of actual defective pixels correctly identified  
+  - **FPR@0.5 (False Positive Rate)**: Percentage of non-defective pixels incorrectly classified as defective  
+  - **ROC AUC**: Area under the ROC curve across varying classification thresholds
+
+- Statistical testing for significance:
+  - **Shapiro–Wilk test** to assess normality of metric differences
+  - **Paired one-tailed t-tests** to compare performance between models
+
+- Complexity metrics:
+  - **FLOPs**: Approximate computational cost
+  - **# Parameters**: Model size
+  - **Training time / Inference time**: Runtime performance evaluation
+
+
 
