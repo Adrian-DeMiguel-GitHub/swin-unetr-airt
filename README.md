@@ -50,7 +50,6 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
   - **F1-Score@0.5 (Dice Coefficient)**: Harmonic mean of precision and recall for defective areas.
   - **TPR@0.5 (True Positive Rate / Recall)**: Percentage of actual defective pixels correctly identified.  
   - **FPR@0.5 (False Positive Rate)**: Percentage of non-defective pixels incorrectly classified as defective.  
-  - **ROC AUC**: Area under the ROC curve across varying classification thresholds.
 
 - **Statistical testing for significance**:
   - **Shapiro–Wilk test** to assess normality of metric differences across folds.
@@ -65,24 +64,31 @@ The codebase also includes a benchmark against a common 2D spatial deep learning
 
 ## 📊 Results Summary
 
-| Model             | IoU@0.5 (mean / std) | F1-Score@0.5 (mean / std)  | TPR@0.5 (mean / std)  | FPR@0.5 (mean / std)  | ROC AUC (mean / std)  |
-|-------------------|----------------------|----------------------------|-----------------------|-----------------------|-----------------------|
-| **Swin UNETR V1** | 0.7504 / 0.0417      | 0.8526 / 0.0304            | 0.8384 / 0.0413       | 0.0031 / 0.0008       | 0.9810 / 0.0105       |
-| **Swin UNETR V2** | 0.7887 / 0.0348      | 0.8794 / 0.0233            | 0.8709 / 0.0447       | 0.0027 / 0.0010       | 0.9688 / 0.0127       |
-| **U-Net VGG11**   | 0.7013 / 0.0417      | 0.8120 / 0.0396            | 0.8179 / 0.0648       | 0.0031 / 0.0011       | 0.9755 / 0.0148       |
+### 📈 ROC Curve Comparison
+
+The following figure presents the average ROC curves across evaluation folds for the two proposed Swin UNETR variants (V1 and V2) and the baseline U-Net VGG11 model. 
+
+While Swin UNETR V1 achieves the highest mean ROC AUC overall, Swin UNETR V2 demonstrates superior performance in the low false positive rate (FPR) region, which is especially relevant in critical applications like defect detection.
+
+![ROC Curve Comparison](average_roc_comparison_all_thresholds.svg)
+
+---
+
+| Model             | IoU@0.5 (mean / std) | F1-Score@0.5 (mean / std)  | TPR@0.5 (mean / std)  | FPR@0.5 (mean / std)  |
+|-------------------|----------------------|----------------------------|-----------------------|-----------------------|
+| **Swin UNETR V1** | 0.7504 / 0.0417      | 0.8526 / 0.0304            | 0.8384 / 0.0413       | 0.0031 / 0.0008       | 
+| **Swin UNETR V2** | 0.7887 / 0.0348      | 0.8794 / 0.0233            | 0.8709 / 0.0447       | 0.0027 / 0.0010       | 
+| **U-Net VGG11**   | 0.7013 / 0.0417      | 0.8120 / 0.0396            | 0.8179 / 0.0648       | 0.0031 / 0.0011       | 
 
 ### 🔍 Statistical Testing Summary
 
 - **Swin UNETR V1 vs V2**:
   - Swin UNETR V2 showed **statistically significant improvements** over V1 in all fixed-threshold metrics: **IoU@0.5**, **F1-Score@0.5**, **TPR@0.5**, and **FPR@0.5**.
-  - V1 achieved **higher mean ROC AUC**, but this difference was **not statistically significant**.
 
 - **Swin UNETR V2 vs U-Net VGG11**:
   - V2 **statistically outperformed** U-Net VGG11 in **IoU@0.5** and **F1-Score@0.5**.
   - It also achieved higher **TPR@0.5** and lower **FPR@0.5**, though these improvements were **not statistically significant**.
-  - U-Net VGG11 had a slightly higher **ROC AUC**, but again, this was **not significant**.
 
-> Swin UNETR V2 delivered the most robust segmentation performance overall when operating under specific decision threshold 0.5, whereas no substantial differences in their overall discriminative capabilities across the full range of classification thresholds.
 
 ### ⚙️ Complexity Comparison
 
